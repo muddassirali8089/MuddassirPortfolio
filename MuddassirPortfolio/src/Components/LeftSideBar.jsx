@@ -4,8 +4,8 @@ const LeftSideBar = () => {
   return (
     <div className="left-sidebar">
     <div className="sidebar-header d-flex align-items-center justify-content-between">
-      <img src="../../public/assets/images/logo.png" alt="Logo" />
-      <span className="designation">Framer Designer &amp; Developer</span>
+      <img  style ={{width:"130px"  , height:"70px"}}src="../../public/assets/images/MuddassirLogo1.png" alt="Logo" />
+      <span className="designation">MERN STACK DEVELOPER</span>
     </div>
     <img className="me" src="assets/images/me.jpg" alt="Me" />
     <h2 className="email">hello@drake.design</h2>
