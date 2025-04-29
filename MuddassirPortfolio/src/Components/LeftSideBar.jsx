@@ -13,28 +13,28 @@ const LeftSideBar = () => {
     <p className="copyright">© {new Date().getFullYear()} Muddassir. All Rights Reserved</p>
     <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
   <li>
-    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+    <a href="https://twitter.com/login" target="_blank" rel="noopener noreferrer">
       <i className="lab la-twitter" />
     </a>
   </li>
   <li>
-    <a href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/muddassir-ali-4ba29b247/" target="_blank" rel="noopener noreferrer">
       <i className="lab la-linkedin" />
     </a>
   </li>
   <li>
-    <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+    <a href="https://instagram.com/muddassirali8089" target="_blank" rel="noopener noreferrer">
       <i className="lab la-instagram" />
     </a>
   </li>
   <li>
-    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/muddassirali8089" target="_blank" rel="noopener noreferrer">
       <i className="lab la-github" />
     </a>
   </li>
 </ul>
 
-    <a href="#" className="theme-btn">
+    <a href="#contact" className="theme-btn">
       <i className="las la-envelope" /> Hire Me!
     </a>
   </div>

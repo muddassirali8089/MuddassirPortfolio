@@ -26,36 +26,29 @@ const Resume = () => {
             </h1>
           </div>
           <div className="resume-timeline">
+
+
+          <div
+              className="item scroll-animation"
+              data-aos="fade-left"
+            >
+              <span className="date">2021 - 2024</span>
+              <h2>Bachelor Degree of Software Engineering</h2>
+              <p>Comsats University Islamabad</p>
+            </div>
+
             <div
               className="item scroll-animation"
               data-aos="fade-left"
             >
-              <span className="date">2020 - Present</span>
-              <h2>Framer Designer &amp; Developer</h2>
-              <p>Brunodee Agency</p>
-              <h2>Front-End WordPress Developer</h2>
-              <p>Envato Market</p>
+              <span className="date">2023 - 2024</span>
+              <h2>Figma To Html Converter</h2>
+              <p>Codematics Inc</p>
+              <h2>Mern Stack Developer</h2>
+              <p>Codematics Inc</p>
             </div>
-            <div
-              className="item scroll-animation"
-              data-aos="fade-left"
-            >
-              <span className="date">2013 - 2019</span>
-              <h2>Webflow Developer &amp; Co-Founder</h2>
-              <p>Designflow Studio</p>
-              <h2>Web Designer</h2>
-              <p>Freelance</p>
-              <h2>Leader Team of Marketing</h2>
-              <p>AHA Marketing Agency</p>
-            </div>
-            <div
-              className="item scroll-animation"
-              data-aos="fade-left"
-            >
-              <span className="date">2010 - 2013</span>
-              <h2>Bachelor Degree of Information Technology</h2>
-              <p>US RMIT University</p>
-            </div>
+         
+           
           </div>
         </div>
       </div>

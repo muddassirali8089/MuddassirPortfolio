@@ -29,12 +29,12 @@ const Introduction = () => {
                   className="scroll-animation"
                   data-aos="fade_from_bottom"
                 >
-                  Say Hi from <span>Drake</span>, Framer Designer and Developer
+                Hi I am <span>Muddassir</span>, MERN Stack Developer
                 </h1>
               </div>
               <p className="scroll-animation" data-animation="fade_from_bottom">
-                I design and code beautifully simple things and i love what i do.
-                Just simple like that!
+                I turn Figma designs into real web apps using the MERN stack.
+                I love building Websites!
               </p>
               <a
                 href="#portfolio"
@@ -49,9 +49,9 @@ const Introduction = () => {
                   className="left scroll-animation"
                   data-aos="fade-right"
                 >
-                  <h1>10+</h1>
+                  <h1>5+</h1>
                   <p>
-                    Years of <br />
+                    Months of <br />
                     Experience
                   </p>
                 </div>
@@ -59,10 +59,10 @@ const Introduction = () => {
                   className="right scroll-animation"
                   data-aos="fade-left"
                 >
-                  <h1>182+</h1>
+                  <h1>12+</h1>
                   <p>
                     projects completed on <br />
-                    15 countries
+                    5 countries
                   </p>
                 </div>
               </div>
