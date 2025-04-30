@@ -9,7 +9,7 @@ const skillsData = [
   { name: "Express.js", imgSrc: "https://vectorified.com/images/express-js-icon-20.png", percent: "85%" },
   { name: "Git", imgSrc: "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3220460/git-icon-md.png", percent: "80%" },
   { name: "GitHub", imgSrc: "https://www.pngarts.com/files/8/Github-Logo-Transparent-Background-PNG.png", percent: "85%" },
-  { name: "Redux", imgSrc: "https://raw.githubusercontent.com/wix/redux-cornell/master/redux_cornell_logo.png", percent: "75%" },
+  { name: "Redux", imgSrc: "https://clipground.com/images/redux-logo-3.jpg", percent: "75%" },
   { name: "Bootstrap", imgSrc: "https://hdpng.com/images/bootstrap-logo-png-bootstrap-logo-390.png", percent: "100%" },
 ];
 

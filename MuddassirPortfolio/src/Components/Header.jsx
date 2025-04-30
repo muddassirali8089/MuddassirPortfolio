@@ -4,20 +4,20 @@ import RightSideBar from "./RightSideBar";
 function Header() {
   return (
     <>
-      <div class="page-loader">
-        <div class="bounceball"></div>
+      <div className="page-loader">
+        <div className="bounceball"></div>
       </div>
 
-      <span class="icon-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
+      <span className="icon-menu">
+        <span className="bar"></span>
+        <span className="bar"></span>
       </span>
-
+{/* 
       <div className="global-color">
         <span className="setting-toggle">
           <i className="las la-cog" />
         </span>
-        {/* <div className="inner">
+         <div className="inner">
           <div className="overlay" />
           <div className="global-color-option">
             <span className="close-settings">
@@ -27,7 +27,7 @@ function Header() {
              <div className="global-color-option-inner">
               <p>Colors</p>
               <div className="color-boxed">
-                <a href="#" className="clr-active" onclick="color1();" />
+                <a href="#" className="clr-active" onClick="color1();" />
                 <a href="#" onclick="color2();" />
                 <a href="#" onclick="color3();" />
                 <a href="#" onclick="color4();" />
@@ -59,8 +59,8 @@ function Header() {
               </ul>
             </div> 
           </div>
-        </div> */}
-      </div>
+        </div> 
+      </div> */}
     </>
   );
 }
