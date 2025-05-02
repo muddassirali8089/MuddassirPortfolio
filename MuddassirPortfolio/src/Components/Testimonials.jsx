@@ -24,11 +24,11 @@ export default function Testimonials() {
                 <div className="author d-flex align-items-center">
                   <img src="assets/images/testimonial-1.jpg" alt="portfolio" />
                   <div className="right">
-                    <h3>Paublo Dybala</h3>
+                    <h3>sagycohen</h3>
                     <p className="designation">CEO of <span>IBM Global</span></p>
                   </div>
                 </div>
-                <p>“Drake - A Developer with creativity...”</p>
+                <p>“I highly recommend this seller because he helped me a lot with a big project I had and he did it without no problem. Thanks a lot!”</p>
                 <a href="#" className="project-btn">Project</a>
               </div>
             </div>

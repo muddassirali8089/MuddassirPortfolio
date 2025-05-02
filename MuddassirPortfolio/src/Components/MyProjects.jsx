@@ -4,18 +4,33 @@ import 'aos/dist/aos.css';
 
 const projects = [
   {
-    image: "assets/images/muddassir.jpg",
-    title: "Moonex WordPress Theme",
-    categories: ["WordPress", "Laravel/PHP"],
-    liveLink: "https://your-live-project-url-1.com",
-    githubLink: "https://github.com/your-github-repo-1"
+    image: "assets/images/BookStore.PNG",
+    title: "Book Store App",
+    categories: ["Vite", "React"],
+    liveLink: "https://muddassirbookstore.netlify.app/",
+    githubLink: "https://github.com/muddassirali8089/BookStore"
   },
   {
-    image: "assets/images/portfolio3.jpg",
-    title: "Taskly Dashboard",
-    categories: ["Figma", "Webflow"],
-    liveLink: "jij", // Live button will be hidden
-    githubLink: "" // GitHub button will be hidden
+    image: "assets/images/Urran.PNG",
+    title: "Urran.com Web Clone",
+    categories: ["HTML", "CSS"],
+    liveLink: "https://muddassirali8089.github.io/urran/", 
+    githubLink: "https://github.com/muddassirali8089/urran" // GitHub button will be hidden
+  },
+
+  {
+    image: "assets/images/Daraz.PNG",
+    title: "Daraz Web Clone",
+    categories: ["React", "Node"],
+    liveLink: "https://daraz8089.netlify.app/", 
+    githubLink: "https://github.com/muddassirali8089/Daraz" // GitHub button will be hidden
+  },
+  {
+    image: "assets/images/Travell.PNG",
+    title: "Travell App",
+    categories: ["React"],
+    liveLink: "https://travellapp8089.netlify.app/", 
+    githubLink: "https://github.com/muddassirali8089/TravelApp" // GitHub button will be hidden
   }
 ];
 

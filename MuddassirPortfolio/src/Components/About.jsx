@@ -9,6 +9,7 @@ const About = () => {
       duration: 3000, // animation duration
       // whether animation should happen only once
     });
+    
   }, []);
   return (
     <section className="about-area page-section scroll-to-page" id="about">
