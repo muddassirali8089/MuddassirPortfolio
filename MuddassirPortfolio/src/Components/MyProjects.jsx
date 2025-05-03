@@ -31,6 +31,21 @@ const projects = [
     categories: ["React"],
     liveLink: "https://travellapp8089.netlify.app/", 
     githubLink: "https://github.com/muddassirali8089/TravelApp" // GitHub button will be hidden
+  },
+
+  {
+    image: "assets/images/expenceApp.PNG",
+    title: "Expence Tracker",
+    categories: ["Mern Stack"],
+    liveLink: "", 
+    githubLink: "https://github.com/muddassirali8089/ExpanceApp" // GitHub button will be hidden
+  },
+  {
+    image: "assets/images/clothing.PNG",
+    title: "Clothing Ecomerce Web",
+    categories: ["React", "Tailwind"],
+    liveLink: "https://clothingbrand8089.netlify.app/", 
+    githubLink: "https://github.com/muddassirali8089/clothing-main" // GitHub button will be hidden
   }
 ];
 
