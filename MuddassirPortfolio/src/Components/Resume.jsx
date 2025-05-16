@@ -47,6 +47,17 @@ const Resume = () => {
               <h2>Mern Stack Developer</h2>
               <p>Codematics Inc</p>
             </div>
+
+             <div
+              className="item scroll-animation"
+              data-aos="fade-left"
+            >
+              <span className="date">May 2025 present</span>
+              <h2>AI and DataScience Intern</h2>
+              <p>GIKI IT Center Islamabad</p>
+              <h2>Learning DataScience & AI</h2>
+              <p>GIKI IT Center Islamabad</p>
+            </div>
          
            
           </div>
