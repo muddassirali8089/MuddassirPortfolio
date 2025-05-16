@@ -46,6 +46,13 @@ const projects = [
     categories: ["React", "Tailwind"],
     liveLink: "https://clothingbrand8089.netlify.app/", 
     githubLink: "https://github.com/muddassirali8089/clothing-main" // GitHub button will be hidden
+  },
+  {
+    image: "assets/images/popCorn.PNG",
+    title: "PopCorn",
+    categories: ["React"],
+    liveLink: "https://popcorn8089.netlify.app/", 
+    githubLink: "https://github.com/muddassirali8089/PopCorn/tree/main/PopCorn" 
   }
 ];
 

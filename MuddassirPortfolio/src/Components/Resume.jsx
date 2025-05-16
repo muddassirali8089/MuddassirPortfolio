@@ -34,7 +34,7 @@ const Resume = () => {
             >
               <span className="date">2021 - 2024</span>
               <h2>Bachelor Degree of Software Engineering</h2>
-              <p>Comsats University Islamabad</p>
+              <p>Comsats University Islamabad Abbottabad Campus.</p>
             </div>
 
             <div
