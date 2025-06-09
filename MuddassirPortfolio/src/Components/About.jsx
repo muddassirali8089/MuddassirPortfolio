@@ -1,16 +1,28 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { useEffect } from "react";
+
 const About = () => {
+  const [about, setAbout] = useState(null);
+
   useEffect(() => {
-    AOS.init({
-      duration: 3000, // animation duration
-      // whether animation should happen only once
-    });
-    
+    AOS.init({ duration: 3000 });
+
+    async function fetchAboutData() {
+      try {
+        const res = await axios.get("http://localhost:8000/api/about/");
+        setAbout(res.data);
+      } catch (error) {
+        console.error("Failed to fetch about data:", error);
+      }
+    }
+
+    fetchAboutData();
   }, []);
+
+  if (!about) return <p>Loading...</p>;
+
   return (
     <section className="about-area page-section scroll-to-page" id="about">
       <div className="custom-container">
@@ -20,23 +32,15 @@ const About = () => {
               <i className="lar la-user" /> About
             </h4>
             <h1 className="scroll-animation" data-aos="fade-up">
-              Every great project begins with
+              {about.title_line_1}
               <br />
-              a passion for <span>coding</span>
+              {about.title_line_2} <span>{about.title_highlight}</span>
             </h1>
           </div>
-  
-            <p className="scroll-animation" data-aos="fade-up">
-              Since starting my journey as a MERN stack developer, I've built
-              and deployed full-stack applications, turned Figma designs into
-              real, responsive user interfaces, and collaborated with others to
-              deliver fast, scalable solutions. I gained valuable experience as
-              a frontend intern at Code Matics Abbottabad, where I contributed
-              to creating custom UIs and learned the ins and outs of modern web
-              development. I’m quietly confident, deeply passionate about clean
-              code and UI/UX, and always improving — one project at a time.
-            </p>
-          
+
+          <p className="scroll-animation" data-aos="fade-up">
+            {about.paragraph}
+          </p>
         </div>
       </div>
     </section>
