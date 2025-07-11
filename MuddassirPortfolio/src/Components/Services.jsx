@@ -1,41 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import axios from 'axios';
 
 const Services = () => {
-  const [services, setServices] = useState([
-    {
-      icon: 'las la-bezier-curve',
-      title: 'Full-Stack Web Development',
-      description:
-        'I build dynamic and scalable full-stack applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).',
-      projects: 15,
-    },
-    {
-      icon: 'las la-code',
-      title: 'Frontend Development',
-      description:
-        'I specialize in creating intuitive and responsive user interfaces using React.js.',
-      projects: 20,
-    },
-    {
-      icon: 'las la-database',
-      title: 'Backend Development',
-      description:
-        'I design robust backend systems with Node.js and Express.js for secure and efficient data handling.',
-      projects: 10,
-    },
-    {
-      icon: 'las la-cogs',
-      title: 'API Integration',
-      description:
-        'I integrate third-party services and APIs into applications for enhanced functionality.',
-      projects: 8,
-    },
-  ]);
+  const [services, setServices] = useState([]);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
+
+    axios.get('http://127.0.0.1:8000/api/services/')
+      .then(res => setServices(res.data))
+      .catch(err => console.error(err));
   }, []);
 
   return (
@@ -54,12 +30,12 @@ const Services = () => {
           <div className="services-items">
             {services.map((service, index) => (
               <div
-                key={index}
+                key={service.id}
                 className="service-item scroll-animation"
                 data-aos="fade-up"
                 data-aos-delay={100 * (index + 1)}
               >
-                <i className={service.icon} />
+                <i className={service.icon || 'las la-code'} /> {/* fallback icon */}
                 <h2>{service.title}</h2>
                 <p>{service.description}</p>
                 <span className="projects">{service.projects} Projects</span>
